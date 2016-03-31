@@ -27,6 +27,7 @@ Get $RELEASE_VERSION from https://github.com/mklimek/ssl-utils-android/releases
 Example usage:
 
 Put your certificate into `assets` directory directly.
+In this case we have file `BPClass2RootCA-sha2.cer`.
 
 ```java
 OkHttpClient client = new OkHttpClient();
