@@ -27,6 +27,6 @@ Get $RELEASE_VERSION from https://github.com/mklimek/ssl-utils-android/releases
 Example usage:
 ```java
 OkHttpClient client = new OkHttpClient();
-SSLContext sslContext = SslUtils.getSslContextForCertificateFile(app, "BPClass2RootCA-sha2.cer");
+SSLContext sslContext = SslUtils.getSslContextForCertificateFile(context, "BPClass2RootCA-sha2.cer");
 client.setSslSocketFactory(sslContext.getSocketFactory());
 ```
