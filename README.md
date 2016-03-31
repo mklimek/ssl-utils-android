@@ -25,6 +25,9 @@ Get $RELEASE_VERSION from https://github.com/mklimek/ssl-utils-android/releases
 
 
 Example usage:
+
+Put your certificate into `assets` directory directly.
+
 ```java
 OkHttpClient client = new OkHttpClient();
 SSLContext sslContext = SslUtils.getSslContextForCertificateFile(context, "BPClass2RootCA-sha2.cer");
