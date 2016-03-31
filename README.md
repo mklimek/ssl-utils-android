@@ -1,4 +1,4 @@
-# SslUtilsAndroid
+# ssl-utils-android
 
 More details in blog post: https://mklimek.github.io/trust-specific-certificate-on-jvm/
 
