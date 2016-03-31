@@ -20,9 +20,9 @@ module build gradle:
         compile 'com.github.mklimek:ssl-utils-android:$RELEASE_VERSION'
    }
 ```
-```bash
-$RELEASE_VERSION https://github.com/mklimek/ssl-utils-android/releases
-```
+
+Get $RELEASE_VERSION from https://github.com/mklimek/ssl-utils-android/releases
+
 
 Example usage:
 ```java
