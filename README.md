@@ -11,7 +11,7 @@ Add it in gradle:
         }
    }
    dependencies {
-        compile 'com.github.mklimek:ssl-utils-android:1.0.0'
+        compile 'com.github.mklimek:ssl-utils-android:$RELEASE_VERSION'
    }
 ```
 
