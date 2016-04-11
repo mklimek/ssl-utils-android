@@ -25,7 +25,7 @@ public class SslUtils {
             sslContext.init(null, trustManagerFactory.getTrustManagers(), new SecureRandom());
             return sslContext;
         } catch (Exception e) {
-            String msg = "cannot create http client with certificate from assets (which JellyBean lack)";
+            String msg = "Error during creating SslContext for certificate from assets";
             Log.e("SslUtilsAndroid", msg, e);
             throw new RuntimeException(msg);
         }
